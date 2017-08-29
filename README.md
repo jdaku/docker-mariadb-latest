@@ -1,6 +1,6 @@
 # About this Repo
 
-This is the Git repo of the Docker official image for mariadb. See the Docker Hub page for the full readme on how to use this Docker image and for information regarding contributing and issues.
+This Git repo is use official Docker image of mariadb. See the [Docker Hub page](https://hub.docker.com/_/mariadb/) for the full readme on how to use this.
 
 ## Latest mariadb docker image with ready to use with docker-compose 
 
