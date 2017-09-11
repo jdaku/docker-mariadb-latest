@@ -3,7 +3,7 @@ version: '2.0'
 services:
   mariadb:
     image: mariadb:latest
-    restart: unless-stopped
+    restart: always
     container_name: mariadb_cf
     environment:
      - MYSQL_ROOT_PASSWORD=root
@@ -11,5 +11,6 @@ services:
     ports:
      - 3307:3306
     volumes:
+     - ./logs:/var/log/mysql
      - ./database:/var/lib/mysql
      - ./_conf/mariadb.cnf:/etc/mysql/my.cnf:ro
