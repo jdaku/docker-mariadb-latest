@@ -10,7 +10,7 @@ Docker (**>= 1.12**) for MacOS / Linux: https://docs.docker.com/engine/installat
 
 Docker Compose (**>= 1.8.0**) for MacOS / Linux: https://docs.docker.com/compose/install
 
-## Default configutaion
+## Default configuration
 
 Images : latest
 Port   : 3307
